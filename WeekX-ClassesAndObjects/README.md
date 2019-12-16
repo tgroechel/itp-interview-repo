@@ -29,7 +29,7 @@ names.sort()
 - make instance
 - `__init__(self)` method
 - `change_student_grade_by_percent(self, percentage)` method
-- `__str(self)` method
+- `__str(self)__` method
 
 ## Class Special Methods
 - [Contructor](https://www.geeksforgeeks.org/constructors-in-python/)
@@ -46,7 +46,7 @@ denise = Student("Denise", 90)
 ```
 
 
-- [How to print classes easily](https://stackoverflow.com/questions/1535327/how-to-print-instances-of-a-class-using-print)
+- [Make Class "pretty-print"](https://stackoverflow.com/questions/1535327/how-to-print-instances-of-a-class-using-print)
 ```python
 class Student:
 	def __init__(self, name_in, grade_in):
