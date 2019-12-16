@@ -25,8 +25,33 @@ names.sort()
 
 ## Live example (See `ClassDemo.py`)
 
+## Class Special Functions
+- [Contructor](https://www.geeksforgeeks.org/constructors-in-python/)
+```python
+class Student:
+	
+	def __init__(self, name, grade):
+		self.name = name
+		self.grade = grade
+```
+
+- [How to print classes easily](https://stackoverflow.com/questions/1535327/how-to-print-instances-of-a-class-using-print)
+```python
+class Student:
+
+	def __init__(self, name, grade):
+		self.name = name
+		self.grade = grade
+
+	def __str__(self):
+		return str(self.name)\
+               + " has grade: " \
+               + str(self.age)
+```
+
 
 ## Extra References
 - [W3 Schools](https://www.w3schools.com/python/python_classes.asp)
 - [Youtube Intro to Classes and Objects Conceptually](https://www.youtube.com/watch?v=8yjkWGRlUmY)
 - [Youtube Classes and Objects Python Intro](https://www.youtube.com/watch?v=wfcWRAxRVBA)
+- [Sorting lists](https://www.afternerd.com/blog/python-sort-list/#sort-objects)
