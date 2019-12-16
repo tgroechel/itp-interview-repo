@@ -35,10 +35,9 @@ class Student:
 		self.grade = grade
 
 denise = Student("Denise", 90) 
-# denise : {
-#		name = "Denise"
-#		grade = 90	
-# }
+# denise :
+#	name = "Denise"
+#	grade = 90
 ```
 
 
