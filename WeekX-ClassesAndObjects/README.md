@@ -25,15 +25,22 @@ names.sort()
 
 ## Live example (See `ClassDemo.py`)
 
-## Class Special Functions
+## Class Special Methods
 - [Contructor](https://www.geeksforgeeks.org/constructors-in-python/)
 ```python
 class Student:
-	
+
 	def __init__(self, name, grade):
 		self.name = name
 		self.grade = grade
+
+denise = Student("Denise", 90) 
+# denise : {
+#		name = "Denise"
+#		grade = 90	
+# }
 ```
+
 
 - [How to print classes easily](https://stackoverflow.com/questions/1535327/how-to-print-instances-of-a-class-using-print)
 ```python
@@ -46,7 +53,12 @@ class Student:
 	def __str__(self):
 		return str(self.name)\
                + " has grade: " \
-               + str(self.age)
+               + str(self.grade)
+
+denise = Student("Denise", 90) 
+print(denise)
+# Output:
+# Denise has grade 90
 ```
 
 
