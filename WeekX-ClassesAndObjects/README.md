@@ -24,12 +24,17 @@ names.sort()
 
 
 ## Live example (See `ClassDemo.py`)
+- motivation
+- build class
+- make instance
+- `__init__(self)` method
+- `change_student_grade_by_percent(self, percentage)` method
+- `__str(self)` method
 
 ## Class Special Methods
 - [Contructor](https://www.geeksforgeeks.org/constructors-in-python/)
 ```python
 class Student:
-
 	def __init__(self, name, grade):
 		self.name = name
 		self.grade = grade
@@ -44,10 +49,9 @@ denise = Student("Denise", 90)
 - [How to print classes easily](https://stackoverflow.com/questions/1535327/how-to-print-instances-of-a-class-using-print)
 ```python
 class Student:
-
-	def __init__(self, name, grade):
-		self.name = name
-		self.grade = grade
+	def __init__(self, name_in, grade_in):
+		self.name = name_in
+		self.grade = grade_in
 
 	def __str__(self):
 		return str(self.name)\
