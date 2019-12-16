@@ -86,7 +86,7 @@ print(denise > gerald)
 ```
 
 ## Try Yourself
-`Card.py` has an outline of a card class. Implement each method below the each comment block. You can check this against the completed `class Card` from the `CODE FINISHED` commit.
+`Card.py` has an outline of a `Card` class. Implement each method below each comment block. You can check this against the completed `class Card` from the `CODE FINISHED` commit.
 
 
 ## Extra References
