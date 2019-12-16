@@ -85,6 +85,10 @@ print(denise > gerald)
 # True
 ```
 
+## Try Yourself
+`Card.py` has an outline of a card class. Implement each method below the each comment block. You can check this against the completed `class Card` from the `CODE FINISHED` commit.
+
+
 ## Extra References
 - [W3 Schools](https://www.w3schools.com/python/python_classes.asp)
 - [Youtube Intro to Classes and Objects Conceptually](https://www.youtube.com/watch?v=8yjkWGRlUmY)

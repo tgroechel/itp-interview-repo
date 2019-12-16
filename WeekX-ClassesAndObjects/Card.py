@@ -1,27 +1,18 @@
-class Card:
-    def __init__(self, suit_in, value_in):
-        self.suit = suit_in
-        self.value = value_in
+#class Card:
+    # Create a constructor that takes:
+    # a suit as a string (e.g. "SPADES")
+    # a value as a string (e.g "2" or "QUEEN")
 
-    def get_val(self):
-        if self.value == "JACK":
-            return 11
-        elif self.value == "QUEEN":
-            return 12
-        elif self.value == "KING":
-            return 13
-        elif self.value == "ACE":
-            return 14
-        return int(self.value)
+    # Implement get_suit_color
+    # returns the Card's color
+    # e.g. "HEARTS" -> "RED"
 
-    def get_suit_color(self):
-        if self.suit == "SPADES" or self.suit == "CLUBS":
-            return "BLACK"
-        else:
-            return "RED"
+    # Implement get_val
+    # returns the Card's value as an integer
+    # e.g. "2" -> 2, "QUEEN" -> 12, "ACE" -> 14
 
-    def __gt__(self, other):
-        return self.get_val() > other.get_val()
+    # Implement the overloaded > operator
+    # Returns the true if self has a higher value than other
 
-    def __str__(self):
-        return self.suit + " " + self.value
+    # Implement the ability to easily print a string
+    # e.g. print(Card("SPADES", "2")) -> Spades 2
