@@ -1,6 +1,18 @@
 # WeekX: Classes and Objects
 ![](https://intellipaat.com/mediaFiles/2019/03/python10.png)
 
+## Why do we need these?
+```python
+names = ["Gerald", "Denise", "Kai", "Lou"]
+grades = [80, 90, 75, 90]
+
+```
+- What happens when I want to sort by name?
+
+```python
+names.sort()
+```
+
 ## What is a class?
 - **Wikipedia:** In object-oriented programming, a class is an extensible program-code-template for creating objects, providing initial values for state (member variables) and implementations of behavior (member functions or methods)
 - **My translation:** A blueprint/template to create objects
@@ -10,6 +22,8 @@
 - **Wikipedia:** In Object-oriented programming, an object is an instance of a Class. Objects are an abstraction. They hold both data, and ways to manipulate the data
 - **My translation:** The actual data structure made using the blueprint
 
+
+## Live example (See `ClassDemo.py`)
 
 
 ## Extra References
