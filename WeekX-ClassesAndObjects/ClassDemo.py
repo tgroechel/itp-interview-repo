@@ -1,4 +1,7 @@
 class Student:
+    name = ""
+    grade = ""
+
     def __init__(self, name_in, grade_in):
         self.name = name_in
         self.grade = grade_in
@@ -11,7 +14,7 @@ class Student:
             self.grade = potential_grade
 
     def __str__(self):
-        return str(self.name)\
+        return str(self.name) \
                + "\thas grade: " \
                + str(self.grade)
 
@@ -21,10 +24,8 @@ angela = Student("Angela", 90)
 
 brian.change_student_grade_by_percent(-10)
 
-
-
 people = [brian, angela]
-people.sort(key = lambda x : x.name)
+people.sort(key=lambda x: x.name)
 
 for student in people:
     print(student)
