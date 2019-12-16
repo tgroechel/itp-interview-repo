@@ -32,7 +32,7 @@ names.sort()
 - `__str(self)__` method
 
 ## Class Special Methods
-- [Contructor](https://www.geeksforgeeks.org/constructors-in-python/)
+### [Contructors](https://www.geeksforgeeks.org/constructors-in-python/)
 ```python
 class Student:
 	def __init__(self, name, grade):
@@ -40,13 +40,14 @@ class Student:
 		self.grade = grade
 
 denise = Student("Denise", 90) 
+
 # denise :
 #	name = "Denise"
 #	grade = 90
 ```
 
 
-- [Make Class "pretty-print"](https://stackoverflow.com/questions/1535327/how-to-print-instances-of-a-class-using-print)
+### [Make class "pretty-print"](https://stackoverflow.com/questions/1535327/how-to-print-instances-of-a-class-using-print)
 ```python
 class Student:
 	def __init__(self, name_in, grade_in):
@@ -60,10 +61,29 @@ class Student:
 
 denise = Student("Denise", 90) 
 print(denise)
+
 # Output:
 # Denise has grade 90
 ```
 
+### [Operator Overloading](https://www.geeksforgeeks.org/operator-overloading-in-python/)
+```python
+class Student:
+	def __init__(self, name_in, grade_in):
+		self.name = name_in
+		self.grade = grade_in
+
+	def __gt__(self, rhs_student):
+		return self.grade > rhs_student.grade
+
+denise = Student("Denise", 90)
+gerald = Student("Gerald", 80)
+
+print(denise > gerald)
+
+# Output:
+# True
+```
 
 ## Extra References
 - [W3 Schools](https://www.w3schools.com/python/python_classes.asp)
